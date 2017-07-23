@@ -1,0 +1,35 @@
+html,body{
+  padding:0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.newsfeed{
+  font-size:12px;
+  margin:12px 0px;
+}
+
+.headlines{
+  text-decoration: none;
+  width:350px;
+  height:400px;
+  position: fixed;
+  right:10px;
+  top:20px;
+  color:#2a476b;
+  border:solid #2a476b 1px;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.headlines a{
+  color:#2a476b;
+  font-weight: 600;
+}
