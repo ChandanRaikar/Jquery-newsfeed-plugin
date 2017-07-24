@@ -1,6 +1,6 @@
 (function(){
     $.ajax({
-    url:'articles.json',
+    url:'https://newsapi.org/v1/articles?source=cnn&apiKey=cd321ab074014e0c8f0aebc6fe91d255',
     type:'GET',
     success:function(data){
       var news = data.articles;
